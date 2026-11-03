@@ -1,2 +1,5 @@
 .envrc.local
 .venv
+_build/
+_opam/
+vendor/stategraph/

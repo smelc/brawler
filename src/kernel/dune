@@ -1,0 +1,5 @@
+(executable
+ (name main)
+ (public_name brawler-kernel)
+ (package brawler-kernel)
+ (libraries hcl_lexer hcl_parser menhirLib sedlex))

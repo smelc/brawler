@@ -1,0 +1,5 @@
+; vendor/stategraph is a sparse clone of https://github.com/stategraph/stategraph,
+; see scripts/fetch-stategraph.sh. Vendoring it silences its warnings and keeps
+; its tests and formatting out of our aliases.
+
+(vendored_dirs vendor)
