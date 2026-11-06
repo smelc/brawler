@@ -11,7 +11,9 @@ depends: [
   "ppx_deriving_yojson" {= "3.10.0"}
   "sedlex" {= "3.4"}
   "yojson" {= "2.2.2"}
+  "qcheck" {with-test & = "0.91"}
   "ocamlformat" {with-dev-setup & = "0.29.0"}
+  "ocaml-lsp-server" {with-dev-setup & = "1.27.0"}
   "odoc" {with-doc}
 ]
 build: [
