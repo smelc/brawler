@@ -2,4 +2,6 @@
  (name main)
  (public_name brawler-kernel)
  (package brawler-kernel)
- (libraries hcl_lexer hcl_parser menhirLib sedlex))
+ (libraries containers hcl_lexer hcl_parser menhirLib sedlex)
+ (preprocess
+  (pps ppx_deriving.eq ppx_deriving.ord ppx_deriving.show)))
